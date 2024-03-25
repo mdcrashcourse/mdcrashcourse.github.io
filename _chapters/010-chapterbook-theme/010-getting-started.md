@@ -8,6 +8,8 @@ This is an example chapter page.
 
 {% include youtube.html id="ypzUOF0yZuY" %}
 
+---
+---
 
 {% include youtube.html id="5h4x6rzd2nE" %}
 
