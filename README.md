@@ -1,4 +1,0 @@
-#smtt
-sdas
-###asdts
-adsfa
