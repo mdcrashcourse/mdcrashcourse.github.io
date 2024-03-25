@@ -23,6 +23,11 @@ some text to copy
 
 </div>
 
+
+Команды:
+- `group`: делает полезное, см. также `region`.
+- `units`: тоже важная команда.
+
 {% include youtube.html id="R2JVpkmeERo" %}
 
 ---
