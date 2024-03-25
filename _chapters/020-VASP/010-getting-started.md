@@ -1,6 +1,6 @@
 ---
 title: Установка VASP
-slug: установка VASP
+slug: install VASP
 abstract: some text as abstract.
 ---
 
