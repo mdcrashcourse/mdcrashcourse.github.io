@@ -1,6 +1,6 @@
 ---
 title: Основные команды 
-slug: основные команды
+slug: main commands
 abstract: some text as abstract.
 ---
 
