@@ -1,6 +1,6 @@
 ---
 title: Установка LAMMPS
-slug: установка LAMMPS
+slug: install LAMMPS
 abstract: some text as abstract.
 ---
 
