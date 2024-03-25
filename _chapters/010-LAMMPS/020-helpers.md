@@ -1,7 +1,7 @@
 ---
 title: Основные команды 
 slug: основные команды
-abstract: some text.
+abstract: some text as abstract.
 ---
 
 ```html
