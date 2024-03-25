@@ -8,7 +8,9 @@ This is an example chapter page.
 
 {% include youtube.html id="ypzUOF0yZuY" %}
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ypzUOF0yZuY/0.jpg)](https://www.youtube.com/watch?v=ypzUOF0yZuY)
+
+{% include youtube.html id="5h4x6rzd2nE" %}
+
 
 [Learn more about getting started with this theme.]({{ site.baseurl }}/index.html#getting-started)
 
