@@ -1,7 +1,7 @@
 ---
 title: Установка LAMMPS
 slug: установка LAMMPS
-abstract: some text in box.
+abstract: some text as abstract.
 ---
 
 Some text.
