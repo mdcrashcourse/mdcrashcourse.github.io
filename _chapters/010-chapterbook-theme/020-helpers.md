@@ -4,8 +4,11 @@ slug: основные команды
 abstract: some text.
 ---
 
-some text
-
+```html
+<div class="table-wrapper" markdown="block">
+some text to copy
+</div>
+```
 
 {% include youtube.html id="l9gIih0wozA" %}
 
