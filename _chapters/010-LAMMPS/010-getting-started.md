@@ -26,7 +26,7 @@ sudo apt-get install git
 
 ## Компиляция
 
-- Обновляем данные о репозитории, устанавливаем **make** и **MPI**, если их еще нет:
+- Обновляем данные о репозитории, устанавливаем **make** и [**MPI**](https://en.wikipedia.org/wiki/Message_Passing_Interface), если их еще нет:
 
 ```liquid
 sudo apt-get update             
@@ -48,7 +48,9 @@ make mpi
 
 ---
 
-## Примеры
+## Пример установки
+
+[**Презентация**](https://github.com/mdcrashcourse/course_data/blob/main/1_Lammps/presentation/Lammps_intro2024.pptx) из видео.
 
 
 {% include youtube.html id="ypzUOF0yZuY" %}
@@ -57,7 +59,6 @@ make mpi
 
 {% include youtube.html id="5h4x6rzd2nE" %}
 
-[Презентация](https://github.com/mdcrashcourse/course_data/blob/main/1_Lammps/presentation/Lammps_intro2024.pptx) из видео.
 
 
 ---
