@@ -3,7 +3,7 @@ title: Установка LAMMPS
 slug: install LAMMPS
 abstract: some text as abstract.
 ---
-
+---
 ## Где скачать?
 
 - C официального сайта: [`www.lammps.org/download.html`](www.lammps.org/download.html) (возможны проблемы при доступе с российских IP)
@@ -19,14 +19,38 @@ abstract: some text as abstract.
 ```liquid
 git clone -b stable https://github.com/lammps/lammps.git lammps23
 ```
-команда создаст директорию **lammps23** и скачает туда актуальную версию
+команда создаст директорию **lammps23** и скачает туда актуальную версию. Если система не видит команду **git**, значит его надо установить:
+```liquid
+sudo apt-get install git
+```
+---
+
+## Компиляция
+
+- Обновляем данные о репозитории, устанавливаем **make** и **MPI**, если их еще нет:
+
+```liquid
+sudo apt-get update             
+sudo apt-get install make			        
+sudo apt-get install mpich   
+```
 
 
-Some text.
+- Переходим в папку с исходниками, включаем, если надо, дополнительные модули (`make yes-REAXFF`) и компилируем *многопоточную*, то есть использующую для расчетов сразу несколько ядер, версию (`make mpi`). Если *многопоточная* версия нам не нужна или с ней что-то не ладится, то для тестов можно скомпилировать *однопоточную* версию, заменив `make mpi` на `make serial`:
+
+```liquid
+cd lammps23/src
+make yes-REAXFF
+make mpi
+```
+
+Подробная информация в мануалах: [`https://docs.lammps.org/Build_make.html`](https://docs.lammps.org/Build_make.html) и [`https://docs.lammps.org/Install.html`](https://docs.lammps.org/Install.html). Зеркало: [`https://guriang.unpad.ac.id/hpc/lammpsdoc/Manual.html`](https://guriang.unpad.ac.id/hpc/lammpsdoc/Manual.html)  (30 Jul 2021 version)
+
+
+---
 
 {% include youtube.html id="ypzUOF0yZuY" %}
 
----
 ---
 
 {% include youtube.html id="5h4x6rzd2nE" %}
