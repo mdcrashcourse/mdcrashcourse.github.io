@@ -54,6 +54,7 @@ make mpi
 
 {% include youtube.html id="5h4x6rzd2nE" %}
 
+['Презентация'](https://github.com/mdcrashcourse/course_data/blob/main/1_Lammps/presentation/Lammps_intro2024.pptx) из видео.
 
 
 ---
