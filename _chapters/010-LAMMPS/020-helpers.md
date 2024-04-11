@@ -65,7 +65,7 @@ Atoms
 
 ## In-файл
 
-Теперь открываем `in.fullerene`:
+Теперь открываем `in.fullerene` И прочитаем кооментарии после "#":
 
 ```liquid
 #Example fullerene at T=1000 K for 1 ps                           #комментарий
