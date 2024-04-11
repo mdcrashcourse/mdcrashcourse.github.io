@@ -1,7 +1,7 @@
 ---
 title: Основные команды 
 slug: main commands
-abstract: some text as abstrac
+abstract:
 ---
 ## Первый расчет с LAMMPS
 
@@ -83,7 +83,7 @@ fix                     chg all qeq/reax 1 0.0 10.0 1.0e-6 reax/c
 thermo_style    custom  step time temp pe ke etotal press vol     #список макроскопических свойств системы (потенц. энергия, давление и т.д.), которые мы будем выводить в ходе расчета
 thermo          100
 
-dump            1 all cfg 250 ./c60.*.cfg mass type xs ys zs      #dump - команды, которые записывают положения атомов в ходе расчета. Будут нужны для визуализации
+dump            1 all cfg 250 ./c60.*.cfg mass type xs ys zs      #dump - команды, которые записывают положения атомов в ходе расчета каждые 250 шагов. Будут нужны для визуализации
 dump            2 all custom 250 ./c60.*.pos id type x y z
 
 timestep        0.1                                               #шаг численного интегрирования (у нас он в фс – см units real в мануале)
