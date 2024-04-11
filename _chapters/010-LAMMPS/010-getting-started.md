@@ -6,12 +6,8 @@ abstract: some text as abstract.
 ---
 ## Где скачать?
 
-- C официального сайта: [`www.lammps.org/download.html`](www.lammps.org/download.html) (возможны проблемы при доступе с российских IP)
+- C официального сайта: [`www.lammps.org/download.html`](www.lammps.org/download.html) (возможны проблемы при доступе с российских IP). Выбираем `LAMMPS Stable release`.
   
-{% include figure.html
-    url="/assets/pics/lammps/lammps_org.png"
-    class="row"
-%}
 
 - Из официального репозитория на **github**: [`https://github.com/lammps/lammps`](https://github.com/lammps/lammps)
 
@@ -44,10 +40,13 @@ make yes-REAXFF
 make mpi
 ```
 
-Подробная информация в мануалах: [`https://docs.lammps.org/Build_make.html`](https://docs.lammps.org/Build_make.html) и [`https://docs.lammps.org/Install.html`](https://docs.lammps.org/Install.html). Зеркало: [`https://guriang.unpad.ac.id/hpc/lammpsdoc/Manual.html`](https://guriang.unpad.ac.id/hpc/lammpsdoc/Manual.html)  (30 Jul 2021 version)
+Подробная информация в мануалах: [`https://docs.lammps.org/Build_make.html`](https://docs.lammps.org/Build_make.html) и [`https://docs.lammps.org/Install.html`](https://docs.lammps.org/Install.html). Если не открывается, можно попробовать [`зеркало`](https://guriang.unpad.ac.id/hpc/lammpsdoc/Manual.html), но там не самая свежая версия (30 Jul 2021).
 
 
 ---
+
+## Примеры
+
 
 {% include youtube.html id="ypzUOF0yZuY" %}
 
