@@ -11,7 +11,7 @@ abstract:
 git clone https://github.com/mdcrashcourse/course_data/tree/main/Examples LAMMPS_examples
 ```
 
-и зайти в папку `task1`:
+или вручную по [ссылке](https://github.com/mdcrashcourse/course_data/tree/main/Examples). А потом зайти в папку `task1`:
 ```liquid
 cd ./LAMMPS_examples/task1
 ```
