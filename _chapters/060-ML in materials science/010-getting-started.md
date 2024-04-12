@@ -1,16 +1,8 @@
 ---
 title: Введение
 slug: ML_intro
-abstract: some text as abstract.
+abstract: UNDER CONSTRUCTION
 ---
 
-Some text.
-
-
-
----
-```
-some text in box
-```
 ---
     
