@@ -1,16 +1,8 @@
 ---
 title: Установка MTP
 slug: MTPintro
-abstract: some text as abstract.
+abstract: UNDER CONSTRUCTION
 ---
 
-Some text.
-
-
-
----
-```
-some text in box
-```
 ---
     
