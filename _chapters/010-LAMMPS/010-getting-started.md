@@ -61,9 +61,6 @@ make mpi
 
 
 
----
-```
-some text in box
-```
+
 ---
     
