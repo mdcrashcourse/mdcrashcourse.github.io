@@ -1,16 +1,8 @@
 ---
 title: Установка VASP
 slug: install_VASP
-abstract: some text as abstract.
+abstract: UNDER CONSTRUCTION
 ---
 
-Some text.
-
-
-
----
-```
-some text in box
-```
 ---
     
