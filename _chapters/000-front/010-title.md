@@ -16,8 +16,4 @@ By interatomic society
 Last updated: {{ "now" | date: "%B %e, %Y" }}
 
 
----
-```
-This file is located at: {{ page.path }}
-```
----
+
