@@ -1,16 +1,9 @@
 ---
 title: Установка DeepMD
 slug: deepMDintro
-abstract: some text as abstract.
+abstract: UNDER CONSTRUCTION
 ---
 
-Some text.
 
-
-
----
-```
-some text in box
-```
 ---
     
