@@ -5,16 +5,19 @@ abstract:
 ---
 ## Первый расчет с LAMMPS
 
-Чтобы разобраться, как работать с LAMMPS, мы будем моделировать фуллерен С60. Все необходимые для расчетов файлы можно скачать:
+Чтобы разобраться, как работать с LAMMPS, мы будем моделировать фуллерен С60. Если вы работаете с нашей [виртуальной машиной](https://mdcrashcourse.github.io/vm.html), то для первого примера переходим в:
+
+```liquid
+cd /home/workshop/_PracticeLAMMPS/C60_task1
+```
+
+Если нет - все необходимые для расчетов файлы можно скачать с гитхаба:
 
 ```liquid
 git clone https://github.com/mdcrashcourse/course_data/tree/main/Examples LAMMPS_examples
 ```
 
-или вручную по [ссылке](https://github.com/mdcrashcourse/course_data/tree/main/Examples). А потом зайти в папку `task1`:
-```liquid
-cd ./LAMMPS_examples/task1
-```
+или вручную по [ссылке](https://github.com/mdcrashcourse/course_data/tree/main/Examples). А потом так же перейти в папку `C60_task1`.
 
 
 Результат нашего расчета будет выглядеть примерно так:
@@ -68,7 +71,7 @@ Atoms
 
 ## In-файл
 
-И наконец открываем `in.fullerene`:
+И, наконец, открываем `in.fullerene`:
 
 ```liquid
 #Example fullerene at T=1000 K for 1 ps                           #комментарий
@@ -112,9 +115,13 @@ run             10000                                             #просим 
 
 ## Запуск расчета и визуализация результатов
 
+Для запуска первого примера надо перейти в папку `LAMMPS_examples/task1` и выполнить команду:
 
-Тут про запуск и Atomeye
+```liquid
+lammps -in in.fullerene -log fullerene.log
+```
 
+Анализ результатов расчета в видео:
 
 {% include youtube.html id="R2JVpkmeERo" %}
 
